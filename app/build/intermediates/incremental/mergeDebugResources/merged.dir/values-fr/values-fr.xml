@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="action_settings">Settings</string>
+    <string name="article_image_description">image de l\'article</string>
+    <string name="close">Fermer</string>
+    <string name="cmpt_creer">Compte creér avec succès</string>
+    <string name="cmpt_introuvable">Votre compte est introuvable</string>
+    <string name="connect_error">Impossible de se connecter Shop.com</string>
+    <string name="fragment_article_price">Prix</string>
+    <string name="fragment_article_product_detail">Détail de l\'article</string>
+    <string name="header_inscription">Inscription</string>
+    <string name="hint_recherche">recherche</string>
+    <string name="lbl_adresse">Adresse</string>
+    <string name="lbl_date">Date de Naissance</string>
+    <string name="lbl_mdp">Mot de passe</string>
+    <string name="lbl_mdp_confirm">Confirmer votre mot de passe</string>
+    <string name="lbl_nom">Prénom</string>
+    <string name="lbl_phone">Telephone</string>
+    <string name="lbl_prenom">Prénom</string>
+    <string name="lbl_pseudo">Pseudo</string>
+    <string name="log_mdp_Incorrect">Login ou mot de passe incorrect</string>
+    <string name="main_logo_description">notre logo</string>
+    <string name="menu_gallery">Gallerie</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_slideshow">Diaporama</string>
+    <string name="msgChamp_req_ins">Tous les champs sont requis</string>
+    <string name="msg_aucun_article">Aucun article trouvé</string>
+    <string name="msg_log_existe">Ce login existe déjà</string>
+    <string name="msg_new_password">Mot de passe reinitialiser avec succès</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Remonter"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Ouvrir le panneau de navigation"</string>
+    <string name="notre_slogan">Votre shopping en toute simplicité</string>
+    <string name="open">ouvrir</string>
+    <string name="panier_date_cmd">Date</string>
+    <string name="panier_product_qte">Quantité</string>
+    <string name="prix_product_panier">Prix</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="quantity">Quantité</string>
+    <string name="read_error">Impossible de lire les categories</string>
+    <string name="remember_me">Se souvenir</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="txtMdPOublier">Mot de passe oublier ?</string>
+    <string name="txt_Acceuil">Acceuil</string>
+    <string name="txt_AllCategory">Categories</string>
+    <string name="txt_Recherche">Recherche</string>
+    <string name="txt_ajouter_au_panier">Ajouter au panier</string>
+    <string name="txt_btn_commander">Commander</string>
+    <string name="txt_btn_confirm">Commander</string>
+    <string name="txt_btn_insp">Enregistrer</string>
+    <string name="txt_btn_login">Se connecter</string>
+    <string name="txt_categotry">Catégories</string>
+    <string name="txt_champ_req">Veuillez renseigner les champs obligatoire</string>
+    <string name="txt_cmd_passer">La commande est passé</string>
+    <string name="txt_confirm">Commande</string>
+    <string name="txt_connexion">Se Connecter</string>
+    <string name="txt_edit_Item">Modifier</string>
+    <string name="txt_inscription">Créer un compte</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_logout">Se deconnecter</string>
+    <string name="txt_mdp">Mot de passe</string>
+    <string name="txt_mdp_diff_ins">Les deux mots de passes sont différents</string>
+    <string name="txt_mes_commande">Mes commandes</string>
+    <string name="txt_montant">Montant</string>
+    <string name="txt_new_password">Nouveau Mot de passe</string>
+    <string name="txt_optionPanier">Options</string>
+    <string name="txt_panier_vide">Le panier est vide</string>
+    <string name="txt_prix_totale">Prix Total</string>
+    <string name="txt_profil">Profil</string>
+    <string name="txt_remove_Item">Supprimer</string>
+    <string name="txt_vos_commande">Vos commandes</string>
+</resources>

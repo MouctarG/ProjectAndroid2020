@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmationCommandeActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirmation_header_height"
+        android:background="@drawable/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/txt_confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/confirmation_header_text_size"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_ins_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirmation_textfield_height"
+        android:layout_marginStart="@dimen/confirmation_textfield_horizontal_margin"
+        android:layout_marginTop="@dimen/confirmation_header_bottom_spacing"
+        android:layout_marginEnd="@dimen/confirmation_textfield_horizontal_margin"
+        android:hint="@string/lbl_prenom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_cmd_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_ins_nom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirmation_textfield_height"
+        android:layout_marginStart="@dimen/confirmation_textfield_horizontal_margin"
+        android:layout_marginTop="@dimen/confirmation_textfield_vertical_spacing"
+        android:layout_marginEnd="@dimen/confirmation_textfield_horizontal_margin"
+        android:hint="@string/lbl_nom"
+        app:layout_constraintTop_toBottomOf="@id/txt_ins_prenom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_cmd_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_ins_adresse"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirmation_textfield_height"
+        android:layout_marginStart="@dimen/confirmation_textfield_horizontal_margin"
+        android:layout_marginTop="@dimen/confirmation_textfield_vertical_spacing"
+        android:layout_marginEnd="@dimen/confirmation_textfield_horizontal_margin"
+        android:hint="@string/lbl_adresse"
+        app:layout_constraintTop_toBottomOf="@+id/txt_ins_nom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_ins_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirmation_textfield_height"
+        android:layout_marginStart="@dimen/confirmation_textfield_horizontal_margin"
+        android:layout_marginTop="@dimen/confirmation_textfield_vertical_spacing"
+        android:layout_marginEnd="@dimen/confirmation_textfield_horizontal_margin"
+        android:hint="@string/lbl_phone"
+        app:layout_constraintTop_toBottomOf="@+id/txt_ins_adresse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_confirm_cmd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirmation_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/confirmation_button_horizontal_margin"
+        android:layout_marginTop="@dimen/confirmation_textfield_button_spacing"
+        android:layout_marginEnd="@dimen/confirmation_button_horizontal_margin"
+        android:background="@drawable/buttons"
+        android:onClick="confirmation"
+        android:text="@string/txt_btn_confirm"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_ins_phone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

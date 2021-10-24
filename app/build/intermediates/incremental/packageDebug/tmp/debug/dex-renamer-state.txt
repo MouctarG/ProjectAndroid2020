@@ -1,0 +1,4 @@
+#Sat Oct 02 17:18:14 CEST 2021
+base.0=C\:\\Users\\guind\\AndroidStudioProjects\\Guindo_Gboho_Guingouain\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,87 @@
+com/example/projetandroid/view/CategorieAdapter.java
+ com.example.projetandroid.view.CategorieAdapter
+ com.example.projetandroid.view.CategorieAdapter$1
+ com.example.projetandroid.view.CategorieAdapter$ViewHolder
+com/example/projetandroid/ArticleDetailFragment.java
+ com.example.projetandroid.ArticleDetailFragment
+ com.example.projetandroid.ArticleDetailFragment$1
+com/example/projetandroid/view/ArticleAdapter.java
+ com.example.projetandroid.view.ArticleAdapter
+ com.example.projetandroid.view.ArticleAdapter$1
+ com.example.projetandroid.view.ArticleAdapter$ViewHolder
+com/example/projetandroid/LoginActivity.java
+ com.example.projetandroid.LoginActivity
+com/example/projetandroid/PasswordOublierActivity.java
+ com.example.projetandroid.PasswordOublierActivity
+com/example/projetandroid/model/utils/beans/Categories.java
+ com.example.projetandroid.model.utils.beans.Categories
+com/example/projetandroid/ui/home/HomeFragment.java
+ com.example.projetandroid.ui.home.HomeFragment
+ com.example.projetandroid.ui.home.HomeFragment$GetAllCategories
+com/example/projetandroid/Interface/CategoryClickListener.java
+ com.example.projetandroid.Interface.CategoryClickListener
+com/example/projetandroid/model/utils/Commande.java
+ com.example.projetandroid.model.utils.Commande
+com/example/projetandroid/model/utils/beans/Image.java
+ com.example.projetandroid.model.utils.beans.Image
+ com.example.projetandroid.model.utils.beans.Image$Sizes
+com/example/projetandroid/ProductsActivity.java
+ com.example.projetandroid.ProductsActivity
+ com.example.projetandroid.ProductsActivity$GetArticlesByCategory
+com/example/projetandroid/model/utils/webservice/OkHttpUtils.java
+ com.example.projetandroid.model.utils.webservice.OkHttpUtils
+com/example/projetandroid/ui/commandeshow/SlideshowFragment.java
+ com.example.projetandroid.ui.commandeshow.SlideshowFragment
+com/example/projetandroid/model/ItemPanierProduct.java
+ com.example.projetandroid.model.ItemPanierProduct
+com/example/projetandroid/HomeActivity.java
+ com.example.projetandroid.HomeActivity
+ com.example.projetandroid.HomeActivity$1
+com/example/projetandroid/model/utils/DatabaseHandler.java
+ com.example.projetandroid.model.utils.DatabaseHandler
+com/example/projetandroid/ui/search/SearchFragment.java
+ com.example.projetandroid.ui.search.SearchFragment
+ com.example.projetandroid.ui.search.SearchFragment$1
+ com.example.projetandroid.ui.search.SearchFragment$GetArticleBysearch
+com/example/projetandroid/ConfirmationCommandeActivity.java
+ com.example.projetandroid.ConfirmationCommandeActivity
+com/example/projetandroid/model/utils/beans/LinksTypes.java
+ com.example.projetandroid.model.utils.beans.LinksTypes
+com/example/projetandroid/model/utils/beans/ArticleTypes.java
+ com.example.projetandroid.model.utils.beans.ArticleTypes
+com/example/projetandroid/model/User.java
+ com.example.projetandroid.model.User
+com/example/projetandroid/PanierActivity.java
+ com.example.projetandroid.PanierActivity
+ com.example.projetandroid.PanierActivity$1
+com/example/projetandroid/Interface/ArticleTypeClickListener.java
+ com.example.projetandroid.Interface.ArticleTypeClickListener
+com/example/projetandroid/model/utils/beans/Articles.java
+ com.example.projetandroid.model.utils.beans.Articles
+com/example/projetandroid/view/PanierItemsAdapter.java
+ com.example.projetandroid.view.PanierItemsAdapter
+ com.example.projetandroid.view.PanierItemsAdapter$1
+ com.example.projetandroid.view.PanierItemsAdapter$ViewHolder
+com/example/projetandroid/model/utils/beans/Marque.java
+ com.example.projetandroid.model.utils.beans.Marque
+com/example/projetandroid/ListArticleFragment.java
+ com.example.projetandroid.ListArticleFragment
+com/example/projetandroid/model/utils/beans/CategoriesTypes.java
+ com.example.projetandroid.model.utils.beans.CategoriesTypes
+com/example/projetandroid/MainActivity.java
+ com.example.projetandroid.MainActivity
+com/example/projetandroid/model/utils/beans/ArticleDetails.java
+ com.example.projetandroid.model.utils.beans.ArticleDetails
+ com.example.projetandroid.model.utils.beans.ArticleDetails$CatagoryArticle
+ com.example.projetandroid.model.utils.beans.ArticleDetails$OptionArticle
+com/example/projetandroid/model/utils/webservice/GetDataWebService.java
+ com.example.projetandroid.model.utils.webservice.GetDataWebService
+com/example/projetandroid/view/CommandeAdapter.java
+ com.example.projetandroid.view.CommandeAdapter
+ com.example.projetandroid.view.CommandeAdapter$ViewHolder
+com/example/projetandroid/Interface/ItemPanierClickListener.java
+ com.example.projetandroid.Interface.ItemPanierClickListener
+com/example/projetandroid/BuildConfig.java
+ com.example.projetandroid.BuildConfig
+com/example/projetandroid/InscriptionActivity.java
+ com.example.projetandroid.InscriptionActivity
